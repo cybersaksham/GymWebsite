@@ -1,0 +1,123 @@
+/* CSS Reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('pexels-anush-gorak-1431282.jpg');
+    height: 2000px;
+    /* width: 5000px; */
+}
+
+.left{
+/* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    top: 0px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.left img{
+    filter: invert(100%);
+    width: 86px;
+    margin: 18px;
+}
+
+.left div{
+    text-align: center;
+    line-height: 0px;
+}
+
+.mid{
+    display: block;
+    /* border: 2px solid red; */
+    width: 37%;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 23px;
+
+}
+.navbar li a:hover{
+    color: #868aa3;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.btn{
+    margin: 12px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+}
+
+.btn:hover{
+    background-color: rgb(61, 60, 60);
+    color: hotpink;
+}
+
+.form{
+    /* border: 2px solid white; */
+    margin: 87px 70px;
+    padding: 10px 10px;
+    width: 34%;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.formgroup input{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.form h1{
+    text-align: center;
+}
+
+.btn2{
+    display: inline;
+    width: 19%;
+    margin: 5px 209px;
+    background-color: red;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+.btn2:hover{
+    background-color: #ca3d3d;
+    color: white;
+}
